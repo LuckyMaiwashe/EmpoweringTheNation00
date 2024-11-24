@@ -14,7 +14,7 @@ Frontend: React Native
 State Management: Redux / Context API (depending on your choice)
 Backend Integration: REST APIs / GraphQL (whichever applies)
 Database: Firebase / MongoDB (or any used)
-UI Libraries: React Native Paper / NativeBase / Custom components
+UI Libraries: React Native Paper / NativeBase / Custom component
 Deployment: Android and iOS
 Project Goals
 The app is designed with the following objectives in mind:
