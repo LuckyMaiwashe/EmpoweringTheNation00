@@ -4,7 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { View, Text, Button, StyleSheet, Alert, TouchableOpacity, Image, ScrollView, Linking, TextInput } from 'react-native';
 import Map from './Components/Map';
-import CourseCalculator from './Components/CourseCalculator'; // Import the new page
+import CourseCalculator from './Components/CourseCalculator';
 
 
 
@@ -67,13 +67,13 @@ function CampusesScreen() {
   return (
     <View style={styles.page}>
       <ScrollView style={styles.container}>
-      {/* Main Heading */}
+      
       <Text style={styles.heading}>Our Campuses</Text>
       <Text style={styles.paragraph}>
         Discover our vibrant campuses, each with its unique charm and community spirit!
       </Text>
 
-      {/* Polokwane Campus */}
+      
       <View style={styles.campusSection}>
         <Text style={styles.subHeading}>Polokwane Campus</Text>
         <Text style={styles.paragraph}>
@@ -84,7 +84,7 @@ function CampusesScreen() {
         <Text style={styles.listItem}>• Fun fact: Students claim the campus has the friendliest security staff who double as campus historians!</Text>
       </View>
 
-      {/* Pretoria Campus */}
+      
       <View style={styles.campusSection}>
         <Text style={styles.subHeading}>Pretoria Campus</Text>
         <Text style={styles.paragraph}>
@@ -104,7 +104,7 @@ function AboutUsScreen() {
   return (
     <View style={styles.page}>
       <View style={styles.container}>
-      {/* Introduction */}
+      
       <Text style={styles.heading}>
         Empowering the Nation, founded by Precious Radebe in 2018,
         provides skills training for domestic workers and gardeners in Johannesburg.
@@ -113,7 +113,7 @@ function AboutUsScreen() {
         Our mission is to enhance employability and support individuals in starting their own businesses.
       </Text>
 
-      {/* What We Do */}
+      
       <View style={styles.section}>
         <Text style={styles.subHeading}>What We Do</Text>
         <Text style={styles.paragraph}>
@@ -126,7 +126,7 @@ function AboutUsScreen() {
         </Text>
       </View>
 
-      {/* What We Provide */}
+      
       <View style={styles.section}>
         <Text style={styles.subHeading}>What We Provide</Text>
         <Text style={styles.paragraph}>We offer:</Text>
@@ -147,10 +147,10 @@ function ContactUsScreen() {
   const [email, setEmail] = useState('');
 
   const handleSubmit = () => {
-    // Show an alert
+    
     Alert.alert("Thank You!", "We can't wait to engage with you!");
 
-    // Clear the form
+    
     setFirstName('');
     setLastName('');
     setPhoneNumber('');

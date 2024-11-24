@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
-import { CheckBox } from 'react-native-elements'; // Import from react-native-elements
+import { CheckBox } from 'react-native-elements'; 
 
 const CourseCalculator = () => {
     const [selectedCourses, setSelectedCourses] = useState({});
@@ -39,7 +39,7 @@ const CourseCalculator = () => {
 
         let discountAmount = 0;
         if (selectedCount >= 2) {
-            const discountPercentage = (0.05); // 5% per additional course
+            const discountPercentage = (0.05); 
             discountAmount = (totalPrice * discountPercentage );
         }
 
@@ -53,9 +53,9 @@ const CourseCalculator = () => {
             {courses.map((course) => (
                 <View key={course.id} style={styles.checkboxContainer}>
             <CheckBox
-            center={true} // Optional: center the checkbox
+            center={true} 
             title={course.name}
-            checked={selectedCourses[course.id] || false} // Set checked state
+            checked={selectedCourses[course.id] || false} 
             onPress={() => handleCheckboxChange(course.id)}
           />
           <Text style={styles.label}>
