@@ -1,4 +1,7 @@
 Empowering the Nation App
+
+YouTube link to App demo: https://youtube.com/shorts/1aaVZy9xwaE?si=hVbN-5HLI5lzSCxi
+
 Overview
 The Empowering the Nation app is a mobile application developed using React Native to drive awareness and engagement around initiatives aimed at empowering communities across various sectors. The app integrates modern technology to deliver a seamless and user-friendly experience, fostering a positive impact on individuals and the community.
 
